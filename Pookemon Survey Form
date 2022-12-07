@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Pokémon Survey Form</title>e
+    <link rel="stylesheet>" type="css" href="pokemon survey form styles.css">
+  </head>
+  <body>
+    <div class="top">
+      <h1 id="title">Pokémon Survey Form</h1>
+      <p id="description">Thank you for taking the time to fulfill the survey</p>
+    </div>
+    <div class="form">
+      <form id="survey-form">
+        <label for="name" id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></input></label>
+        <label for="email" id="email-label">Email<input type="email" id="email" placeholder="Enter your Email" required></input></label>
+        <label for="age" id="number-label">Age<input type="number" id="number" min="5" max="120" placeholder="Age"></input></label>
+        <label>Which option best describes your pokéball color
+          <select id="dropdown" placeholder="Select colour of your pokéball">
+            <option>Pink</option>
+            <option>Red/option>
+            <option>Yellow</option>
+            <option>Blue</option>
+          </select></label>
+          <label for="recommend"><p>Would you reccomend Pokémon to a friend?<p>
+            <input type="radio" name="recommend" class="inline" value="definitely"><a>Definitely</a>
+            <input type="radio" name="recommend" class="inline" value="maybe">Maybe
+            <input type="radio" name="recommend" class="inline" value="never">Never!
+          </label>
+          <label><p>What is your favorite Pokémon?<p>
+            <input type="checkbox" value="blastoise" class="inline"/>Blastoise
+            <input type="checkbox" value="snorlax" class="inline"/>Snorlax
+            <input type="checkbox" value="ninetales" class="inline"/>Ninetales
+            <input type="checkbox" value="squirtle" class="inline"/>Squirtle
+            <input type="checkbox" value="dragonite" class="inline"/>Dragonite
+            <input type="checkbox" value="eevee" class="inline"/>Eevee
+            <input type="checkbox" value="bulbasaur" class="inline"/>Bulbasaur
+            <input type="checkbox" value="arcanine" class="inline"/>Arcanine
+            <input type="checkbox" value="gengar" class="inline"/>Gengar
+            <input type="checkbox" value="charizard" class="inline"/>Charizard
+            <input type="checkbox" value="pikachu" class="inline"/>Pikachu
+          </label>
+          <label>Tell us your story with Pokémon
+            <textarea rows="4" cols="50">Enter your text here...
+            </textarea>
+          </label>
+          <label>
+            <input type="submit" id="submit">
+          </label>
+    </form>
+    </div>
+  </body>
+</html>
